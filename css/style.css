@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{}
+html{}
+header{
+    width: 100%;
+    background: white;
+    padding: 20px 0;
+    height: auto;
+}
+.container{
+	width: calc(100% - 150px);
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo{
+    width: 20%;
+}
+
+.logo a img{}
+nav{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    font-size: 12px;
+    padding: 10px 20px;
+    line-height: 20px;
+    font-weight: 600;
+     border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+nav ul li a:hover{
+	border-bottom: 1px solid red;
+}
+
+/* all section start here */
+
+section .container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100%;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding-bottom: 120px;
+}
+section .container p{
+    color: #232323;
+    font-size: 11px;
+    line-height: 20px;
+}
+section .container h1{
+    background: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+section .container h1 a{
+    text-decoration: none;
+    color: #232323;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+section .container h1 a:hover{
+	color: #ff214f;
+}
+section .container button{
+	    border: none;
+    background: transparent;
+    background: black;
+    color: white;
+    font-size: 9px;
+    line-height: 22px;
+    padding: 0px 14px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+section .container button:hover{
+	border: 2px solid black;
+	color: #232323;
+	background: transparent;
+}
+.bag{
+	background: url('../img/1.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+     background-attachment: fixed;
+
+}
+
+.cola{
+	background: url('../img/2.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+     background-attachment: fixed;
+
+}
+.cap{
+	background: url('../img/3.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+     background-attachment: fixed;
+
+}
+.hand{
+	background: url('../img/4.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+     background-attachment: fixed;
+
+}
+.box{
+	background: url('../img/5.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+     background-attachment: fixed;
+
+}
+.mostler{
+	background: url('../img/6.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+/* footer start here */
+footer{
+    padding: 45px 0;
+}
+footer .container{}
+.flogo{
+    width: 20%;
+}
+.flogo img{}
+.copyright{
+    text-align: center;
+    width: 60%;
+}
+.copyright p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #6f6f6f;
+}
+.social_link{
+    width: 20%;
+}
+.social_link ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.social_link ul li{
+    list-style: none;
+    margin: 0 10px;
+    color: #6F6F6F;
+}
+.social_link ul li:hover{
+	color: #ff214f;
+}
+.social_link ul i{}
+.arrowup{
+	position: absolute;
+    right: 0;
+    margin-right: 40px;
+    width: 30px;
+    height: scroll;
+    height: 30px;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+      background: #878787;
+    color: white;
+}
+.arrowup:hover{
+	background: #313131;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: fixed;
+	right: 0;
+	top: 30%;
+	transform: translateY(-50%);
+}
+.social li{
+    list-style: none;
+    background: white;
+    width: 165px;
+    margin: 3px;
+    transition: all 0.3s;
+    margin-right: -133px;
+    color: #333;
+}
+.social li:hover{
+	 margin-right: 0;
+}
+.social li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+    color: #232323;
+    width: 100%;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+.social li a span{
+    margin-left: 14px;
+    font-size: 12px;
+}
+.social li a:hover{
+	border: 1px solid #FF214F;
+    background: #FF214F;
+	color: white;
+}
